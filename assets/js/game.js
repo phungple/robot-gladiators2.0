@@ -91,6 +91,7 @@ var startGame = function() {
             break;
         }
     }
+    //after lopp ends, we are either out of playerHealth or enemies to fight, so run the endGame
     endGame();
 };
 
